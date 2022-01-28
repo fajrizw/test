@@ -1,0 +1,199 @@
+#mybutton {
+    position: relative;
+    z-index: 1;
+    left: 90%;
+    top: -25px;
+    cursor: pointer;
+ }
+ 
+ 
+
+
+ .form-control {
+    margin-top: 15%;
+    background: #fafafa;
+    padding: 20px;
+    border: 1px solid #f4f4f4;
+    width: 100%;
+    padding: 5px;
+ }
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #370042 ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-horizontal {
+    width: 400px;
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.795);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(52, 255, 45, 0.3);
+    padding: 40px 30px;
+}
+
+.form-horizontal .form-group {
+    color: rgb(22, 19, 19);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form-horizontal .form-group .huruf {
+    color: rgb(22, 141, 22);
+    font-size: larger;
+    margin:100px;
+    font-family:monospace;
+}
+
+input[type=text]:focus {
+    background-color:rgb(74, 252, 4);
+    padding: 12px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    box-sizing: border-box;
+    color: #370042  ;
+
+  }
+
+  input[type=password]:focus {
+    background-color:rgb(74, 252, 4);
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #370042  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+
+  input[type=password] {
+    background-color:rgb(254, 255, 254);
+    padding: 8px 15px;
+    box-sizing: border-box;
+    color: #370042  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border-radius: 5px;
+  }
+
+  input[type=text] {
+    background-color:rgb(254, 255, 254);
+    padding: 8px 15px;
+    box-sizing: border-box;
+    color: #370042  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border-radius: 5px;
+  }
+
+  .btn {
+    background-color:rgb(58, 250, 19);
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+   margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+   
+  }
+  .btn:focus {
+    border: 5px outset #370042;
+  
+  }
+
+.form-horizontal .form-group .col-sm-10  {
+    color: rgb(255, 249, 249) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.form-horizontal .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+
+.container-logout {
+    width: 500px;
+    min-height: 200px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container-logout .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.container-logout .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+    color:black;
+}
+
